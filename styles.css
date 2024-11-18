@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 130, 182);
+}
+
+.fio{
+    font-family: 'Lobster', monospace;
+}
+
+.univer{
+    font-family: 'Courier New', monospace;
+}
+
+.group{
+    font-family: 'Lobster', monospace;
+}
+
+.major{
+    font-family: 'Courier New', monospace;
+}
+
+.faculty{
+    font-family: 'Courier New', monospace;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg,  rgb(138, 130, 182), #292554); /* Задаем градиент */
+    -webkit-text-fill-color: transparent; /* Делаем цвет текста прозрачным */
+    font-size: 3em; 
+    text-align: center; 
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden; /*Прятать другие изображения*/
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.about{
+    display: flex;
+}
+
+.about p{
+    display: block;
+}
+
+.photo{
+    width: 35%;
+    height: 35%;
+}
+
+.info{
+    display: block;
+    margin-left: 40px;
+}
+
+.html{
+    color: #292554;
+}
+
+.css{
+    color:  #292554;
+}
+
+.js{
+    color:  #292554;
+}
+
+.java{
+    color: #0075db;
+}
+
+.python{
+    color: #0075db;
+}
+
+.cs{
+    color: #0075db;
+}
+
+.under{
+    display: flex;
+}
+
+
+
+
+header {
+    background: #292554;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.develop{
+    text-align: center;
+}
+
+.fonbak{
+    display: flex;
+}
+
+.fonbak ul{
+    list-style: none;
+}
+
+.fon{
+    margin-left: 20%;
+}
+
+.bak{
+    margin-left: 20%;
+}
+
+nav ul {
+    list-style: none; /*Убирает маркеры*/
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /*Убирает подчёркивание*/
+}
+.buttons {
+    position: absolute; /* */
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* */
+    transform: translateY(-50%); /* */
+}
+
+.button {
+    background-color: #9dc0df;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.styled-button {
+    background-color: #9dc0df(77, 16, 92); 
+    color:  #5e6163(0, 0, 0); 
+    border: none; 
+    margin: 40px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.styled-button:hover {
+    background-color: #333; 
+}
+
+section {
+    padding: 20px;
+}
+
+#repos {
+    margin-top: 20px;
+}
+
+.repo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #292554;
+    color: #fff;
+}
